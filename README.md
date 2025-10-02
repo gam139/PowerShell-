@@ -24,6 +24,7 @@ Write-Host "🚀 正在执行备份..."
 Invoke-Expression $BackupCommand | Out-File -FilePath $LogFile -Encoding UTF8
 
 Write-Host "✅ 备份完成，日志已保存到：$LogFile"
+
 📅 自动化建议：任务计划集成
 你可以将此脚本保存为 .ps1 文件，并通过任务计划程序定期运行：
 
